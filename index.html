@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Italian CIT（シーアイティ）</title>
+<style>
+  :root{
+    --bg:#F5E9E7;
+    --accent:#6b2f2b;
+    --text:#222;
+    --muted:#6b6b6b;
+    --card:#fff;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--bg);font-family:"Noto Sans JP", sans-serif;color:var(--text);}
+  
+  /* ===== header ===== */
+  header{
+    padding:20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+  }
+  .branding{
+    display:flex;
+    align-items:center;
+    gap:18px;
+  }
+  .branding img.logo{
+    width:80px;
+    height:80px;
+    object-fit:contain;
+  }
+  .branding img.title{
+    height:50px;
+    width:auto;
+  }
+
+  nav a{
+    color:var(--text);
+    text-decoration:none;
+    font-weight:700;
+    margin-left:20px;
+  }
+
+  /* ===== hero ===== */
+  .hero{
+    max-width:1100px;
+    margin:0 auto;
+    padding:40px 16px;
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    gap:24px;
+  }
+  .hero .left{
+    flex:1;
+    min-width:280px;
+  }
+  .hero h2{
+    font-size:32px;
+    margin:0 0 10px;
+  }
+  .hero p{
+    margin:0 0 16px;
+    color:var(--muted);
+    line-height:1.6;
+  }
+  .hero .cta{
+    display:inline-block;
+    background:var(--accent);
+    color:#fff;
+    padding:10px 20px;
+    border-radius:6px;
+    text-decoration:none;
+    font-weight:700;
+  }
+  .hero .right img{
+    width:100%;
+    border-radius:8px;
+    box-shadow:0 8px 20px rgba(0,0,0,.1);
+  }
+
+  footer{
+    text-align:center;
+    padding:28px 0;
+    margin-top:40px;
+    color:var(--muted);
+    font-size:14px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="branding">
+    <img src="C.png" class="logo" alt="ロゴ">
+    <img src="chiba tech.png" class="title" alt="Italian CIT タイトル">
+  </div>
+
+  <nav>
+    <a href="index.html">HOME</a>
+    <a href="menu.html">メニュー</a>
+    <a href="about.html">こだわり</a>
+    <a href="contact.html">お問い合わせ</a>
+  </nav>
+</header>
+
+
+<main>
+  <section class="hero">
+    <div class="left">
+      <h2>気取らない贅沢、しませんか？</h2>
+      <p>衛生対策は万全。旬の食材を使ったコスパ最高のイタリアン。<br>
+      自分達が美味しいと思ったワインだけをご用意しています。</p>
+      <a class="cta" href="menu.html">メニューを見る</a>
+    </div>
+    <div class="right">
+      <img src="内装1.jpg" alt="店内写真">
+    </div>
+  </section>
+</main>
+
+<footer>
+  © Italian CIT
+</footer>
+
+</body>
+</html>
